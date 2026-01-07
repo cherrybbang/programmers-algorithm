@@ -14,3 +14,9 @@ function solution(arr, divisor) {
 
   return result.length ? result : [-1];
 }
+
+
+// sort() 함수는 기본적으로 오름차순을 지원한다.
+// sort().reverse()를 사용하면 내림차순 정렬이 가능하다.
+array.sort((a, b) => b - a); // 내림차순 정렬
+array.sort((a, b) => a - b); // 오름차순 정렬

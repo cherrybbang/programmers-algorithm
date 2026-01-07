@@ -17,3 +17,6 @@ function solution(arr) {
     }
 }
 
+
+// 배열에서 원하는 자료만 필터링하고 싶다면 filter() 메서드를 사용하면 된다.
+// filter는 sort와 다르게 원본 배열을 변경하지 않는다.
