@@ -12,3 +12,10 @@ function solution(n) {
 // 예시:
 // let str = "Hello, World!";
 // let result = str.substring(0, 5); ---> "Hello"
+// let result = str.substring(7); ---> "World!"
+
+// repeat 메소드란?
+// repeat(n)은 문자열을 n번 반복한 새로운 문자열을 반환합니다.
+// 예시:
+// let str = "abc";
+// let result = str.repeat(3); ---> "abcabcabc"
