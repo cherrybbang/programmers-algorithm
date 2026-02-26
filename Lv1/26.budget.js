@@ -20,3 +20,21 @@ function solution(d, budget) {
     
     return count;
 }
+
+
+// 간결한 코드
+function solution(d, budget) {
+    d.sort((a, b) => a - b);
+    
+    let count = 0;
+    let sum = 0;
+    
+    for (let amount of d) {
+        if (sum + amount <= budget) {
+            sum += amount;
+            count++;
+        } else break;
+    }
+    
+    return count;
+}
