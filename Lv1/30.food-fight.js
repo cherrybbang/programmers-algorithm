@@ -17,3 +17,10 @@ function solution(food) {
 
 left += i.toString().repeat(count);
 // i 가 count 수 만큼 left에 추가된다.
+
+// 배열의 음수 인덱스 사용
+const exArray = [10, 20, 30, 40, 50];
+console.log(exArray[exArray.length - 1]);	// 50
+
+const exArray = [11, 22, 33, 44, 55];
+console.log(exArray.at(-1));		// 55
